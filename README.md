@@ -1,0 +1,2 @@
+# pb-configs
+Passivbot Configurations
