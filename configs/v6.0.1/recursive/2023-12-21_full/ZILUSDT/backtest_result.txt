@@ -1,0 +1,50 @@
++---------------------------------------------------------+
+|                         Summary                         |
++----------------------------------------+----------------+
+| Metric                                 | Value          |
++----------------------------------------+----------------+
+| Exchange                               | binance        |
+| Market type                            | futures        |
+| Symbol                                 | ZILUSDT        |
+| Passivbot mode                         | recursive_grid |
+| ADG n subdivisions                     | 10             |
+| No. days                               | 1300.0         |
+| Starting balance                       | 10000.0        |
+|                                        |                |
+| Long                                   | True           |
+| ADG per exposure                       | 0.256%         |
+| ADG weighted per exposure              | 0.118%         |
+| Final balance                          | 257748.0       |
+| Final equity                           | 257748.0       |
+| Net PNL + fees                         | 247748.0       |
+| Net Total gain                         | 2477.0%        |
+| Average daily gain                     | 0.256%         |
+| Average daily gain weighted            | 0.118%         |
+| Loss to profit ratio                   | 0.02984        |
+| Exposure ratios mean                   | 0.062645       |
+| Price action distance mean             | 0.0221584      |
+| Price action distance std              | 0.053616       |
+| Price action distance max              | 0.370121       |
+| Price action distance mean of 1% worst | 0.272061       |
+| Closest bankruptcy                     | 99.98%         |
+| Lowest equity/balance ratio            | 0.7298         |
+| Mean of 10 worst eq/bal ratios         | 0.7556         |
+| Equity/balance ratio std               | 0.02842        |
+| Ratio of time spent at max exposure    | 0.05941        |
+| No. fills                              | 78430          |
+| No. entries                            | 28132          |
+| No. closes                             | 50298          |
+| No. initial entries                    | 15785          |
+| No. reentries                          | 12347          |
+| No. unstuck/EMA entries                | 0              |
+| No. unstuck/EMA closes                 | 63             |
+| No. normal closes                      | 50235          |
+| Average n fills per day                | 61.7           |
+| Mean hours stuck                       | 0.388968       |
+| Max hours stuck                        | 96.4167        |
+| PNL sum                                | 261000.0       |
+| Profit sum                             | 269000.0       |
+| Loss sum                               | -8026.0        |
+| Fee sum                                | -13200.0       |
+| Volume quote                           | 200495000.0    |
++----------------------------------------+----------------+
