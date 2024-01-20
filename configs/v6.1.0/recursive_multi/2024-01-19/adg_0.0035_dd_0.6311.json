@@ -1,0 +1,68 @@
+{
+  "symbols": [
+    "AAVEUSDT",
+    "ADAUSDT",
+    "ALGOUSDT",
+    "ATOMUSDT",
+    "DOGEUSDT",
+    "DOTUSDT",
+    "EGLDUSDT",
+    "FILUSDT",
+    "FTMUSDT",
+    "HBARUSDT",
+    "LINKUSDT",
+    "MATICUSDT",
+    "MKRUSDT",
+    "NEARUSDT",
+    "RUNEUSDT",
+    "SNXUSDT",
+    "THETAUSDT",
+    "TRXUSDT",
+    "UNIUSDT",
+    "VETUSDT",
+    "XLMUSDT",
+    "XMRUSDT",
+    "XRPUSDT"
+  ],
+  "start_date": "2020-01-01",
+  "end_date": "2024-01-15",
+  "starting_balance": 1000000,
+  "long_enabled": true,
+  "short_enabled": false,
+  "live_config": {
+    "global": {
+      "TWE_long": 1.5462598292005014,
+      "TWE_short": 0.0013920775951215096,
+      "loss_allowance_pct": 0.03859467758155302,
+      "stuck_threshold": 0.9500022768554539,
+      "unstuck_close_pct": 0.007202528512723823
+    },
+    "long": {
+      "ddown_factor": 2.779782141476124,
+      "ema_span_0": 9.926721013259794,
+      "ema_span_1": 105.07612973854317,
+      "initial_eprice_ema_dist": -0.0696451295441462,
+      "initial_qty_pct": 0.007857531674423338,
+      "markup_range": 0.012028744117501202,
+      "min_markup": 0.007551136301252725,
+      "n_close_orders": 3.232727396854961,
+      "rentry_pprice_dist": 0.03395159700086074,
+      "rentry_pprice_dist_wallet_exposure_weighting": 1.37240968651081
+    },
+    "short": {
+      "ddown_factor": 2.9433607033938816,
+      "ema_span_0": 1431.0840040202677,
+      "ema_span_1": 964.7243843651627,
+      "initial_eprice_ema_dist": -0.024330683775208528,
+      "initial_qty_pct": 0.03386996978325672,
+      "markup_range": 0.008551551399089247,
+      "min_markup": 0.005758359795052822,
+      "n_close_orders": 15.850525548150905,
+      "rentry_pprice_dist": 0.025874867844532634,
+      "rentry_pprice_dist_wallet_exposure_weighting": 4.4730731105149255
+    }
+  },
+  "adg": 0.0035241871332667703,
+  "worst_drawdown": 0.6310916463486691,
+  "sharpe_ratio": 0.10084869334636382
+}
