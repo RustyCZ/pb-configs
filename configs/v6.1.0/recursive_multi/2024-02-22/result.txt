@@ -1,0 +1,52 @@
+symbols                 [ADAUSDT, ATOMUSDT, BATUSDT, BCHUSDT, BNBUSDT,...
+start_date                                                     2020-05-01
+end_date                                                       2024-02-17
+starting_balance                                                  1000000
+long_enabled                                                         True
+short_enabled                                                       False
+live_config             {'global': {'TWE_long': 1.5024071371836727, 'T...
+adg                                                          0.0020210766
+worst_drawdown                                               0.4526374271
+drawdowns_daily_mean                                         0.0030410194
+sharpe_ratio                                                 0.2818646488
+Name: 67592, dtype: object
+cfg =  {
+    "global": {
+        "TWE_long": 1.5024071371836727,
+        "TWE_short": 3.5526705451715466,
+        "loss_allowance_pct": 0.09320491787277821,
+        "stuck_threshold": 0.970952059337383,
+        "unstuck_close_pct": 0.0306261055023517
+    },
+    "long": {
+        "ddown_factor": 1.297601699316827,
+        "ema_span_0": 428.02014617441586,
+        "ema_span_1": 405.77153067233456,
+        "enabled": True,
+        "backwards_tp": False,
+        "initial_eprice_ema_dist": 0.0011237715620361463,
+        "initial_qty_pct": 0.010927682999371933,
+        "markup_range": 0.07666583796265765,
+        "min_markup": 0.0035499228366967935,
+        "n_close_orders": 5.75386328763251,
+        "rentry_pprice_dist": 0.035350300390332594,
+        "rentry_pprice_dist_wallet_exposure_weighting": 0.04824587188429075,
+        "wallet_exposure_limit": 0.06260029738265303
+    },
+    "short": {
+        "ddown_factor": 2.137142568366876,
+        "ema_span_0": 549.1371743199409,
+        "ema_span_1": 1114.5478803102142,
+        "enabled": False,
+        "initial_eprice_ema_dist": -0.02904134770345763,
+        "initial_qty_pct": 0.04965879528318176,
+        "markup_range": 0.004152883692926707,
+        "min_markup": 0.007828048895919926,
+        "n_close_orders": 9.780510854565913,
+        "rentry_pprice_dist": 0.016903409086987453,
+        "rentry_pprice_dist_wallet_exposure_weighting": 1.8697699897560156,
+        "wallet_exposure_limit": 0.14802793938214778
+    }
+}
+starting_balance = 1000000
+symbols = ['ADAUSDT', 'ATOMUSDT', 'BATUSDT', 'BCHUSDT', 'BNBUSDT', 'BTCUSDT', 'DASHUSDT', 'EOSUSDT', 'ETCUSDT', 'ETHUSDT', 'IOSTUSDT', 'IOTAUSDT', 'LINKUSDT', 'LTCUSDT', 'NEOUSDT', 'ONTUSDT', 'QTUMUSDT', 'TRXUSDT', 'VETUSDT', 'XLMUSDT', 'XMRUSDT', 'XRPUSDT', 'XTZUSDT', 'ZECUSDT']
