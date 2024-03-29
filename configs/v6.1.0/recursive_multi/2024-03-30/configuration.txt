@@ -1,0 +1,41 @@
+cfg =  {
+    "global": {
+        "TWE_long": 3.000418677355219,
+        "TWE_short": 8.372527967688857,
+        "loss_allowance_pct": 0.01864588836455271,
+        "stuck_threshold": 0.9599034890750334,
+        "unstuck_close_pct": 0.01
+    },
+    "long": {
+        "ddown_factor": 2.7489541731402505,
+        "ema_span_0": 468.8804912801704,
+        "ema_span_1": 444.0054743465234,
+        "enabled": True,
+        "backwards_tp": False,
+        "initial_eprice_ema_dist": -0.05461108292677985,
+        "initial_qty_pct": 0.01637658906408205,
+        "markup_range": 0.08393132903257657,
+        "min_markup": 0.011934720054289858,
+        "n_close_orders": 3.382096776703569,
+        "rentry_pprice_dist": 0.03756233911041581,
+        "rentry_pprice_dist_wallet_exposure_weighting": 2.6677197406637667,
+        "wallet_exposure_limit": 0.08109239668527618
+    },
+    "short": {
+        "ddown_factor": 1.3928707025645126,
+        "ema_span_0": 1317.1487510417264,
+        "ema_span_1": 1072.6896825582676,
+        "enabled": False,
+        "backwards_tp": False,
+        "initial_eprice_ema_dist": 0.005271335979621686,
+        "initial_qty_pct": 0.02221915886252566,
+        "markup_range": 0.0044486037859050274,
+        "min_markup": 0.0012399950996555918,
+        "n_close_orders": 5.325300785282792,
+        "rentry_pprice_dist": 0.022240603334023487,
+        "rentry_pprice_dist_wallet_exposure_weighting": 3.7363268208830496,
+        "wallet_exposure_limit": 0.22628453966726642
+    }
+}
+starting_balance = 1000000
+symbols = ['1000LUNCUSDT', 'ANKRUSDT', 'APTUSDT', 'ARUSDT', 'BSVUSDT', 'CELOUSDT', 'CKBUSDT', 'COMPUSDT', 'DYDXUSDT', 'FILUSDT', 'FTMUSDT', 'FXSUSDT', 'GALAUSDT', 'GALUSDT', 'GRTUSDT', 'HNTUSDT', 'ICPUSDT', 'IMXUSDT', 'INJUSDT', 'IOTXUSDT', 'JASMYUSDT', 'LDOUSDT', 'LPTUSDT', 'MINAUSDT', 'NEARUSDT', 'OCEANUSDT', 'OPUSDT', 'RNDRUSDT', 'RSRUSDT', 'RUNEUSDT', 'SCUSDT', 'SKLUSDT', 'SNXUSDT', 'SOLUSDT', 'STXUSDT', 'WOOUSDT', 'ZRXUSDT']
