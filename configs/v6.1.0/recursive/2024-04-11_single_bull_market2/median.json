@@ -1,0 +1,24 @@
+{
+  "config_name": null,
+  "logging_level": 0,
+  "long": {
+    "auto_unstuck_delay_minutes": 2771.7323267695706,
+    "auto_unstuck_ema_dist": -0.037590288193884776,
+    "auto_unstuck_qty_pct": 0.01,
+    "auto_unstuck_wallet_exposure_threshold": 0.05037089876190587,
+    "backwards_tp": false,
+    "ddown_factor": 2.208591212192668,
+    "ema_span_0": 387.1351966034955,
+    "ema_span_1": 542.4331813943268,
+    "enabled": true,
+    "initial_eprice_ema_dist": -0.1,
+    "initial_qty_pct": 0.02,
+    "markup_range": 0.03589875171703424,
+    "min_markup": 0.0037794744530904477,
+    "n_close_orders": 7,
+    "rentry_pprice_dist": 0.028859870554524304,
+    "rentry_pprice_dist_wallet_exposure_weighting": 2.2529463175951308,
+    "wallet_exposure_limit": 1
+  },
+  "short": null
+}
